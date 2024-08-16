@@ -1,8 +1,7 @@
 my_dict = {'Nastya':1999, 'Stepa':2012, 'Tanya':2011}
 print(my_dict)
 print('Existing value:', my_dict['Stepa'])
-my_dict['Sofiya'] = 2007
-print('Not existing value:', my_dict['Sofiya'])
+print('Not existing value:', my_dict.get('Sofiya'))
 my_dict.update({'Sasha':2004,
                 'Vovka':2012})
 a = my_dict.pop('Sasha')
